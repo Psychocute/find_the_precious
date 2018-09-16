@@ -7,10 +7,9 @@
 	border-radius: 20px;
 	text-align: center;
 }
-.card-img-overlay:hover {
-	visibility: hidden;
+.card-img-overlay:hover .overlay {
+    display: none;
 }
-.overlay:hover {
-	visibility: hidden;
-	
+.card:hover .card-img-overlay {
+    visibility: hidden;
 }
