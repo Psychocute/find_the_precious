@@ -13,3 +13,7 @@
 .card:hover .card-img-overlay {
     visibility: hidden;
 }
+
+.gollum {
+	border-radius: 100px;
+}
